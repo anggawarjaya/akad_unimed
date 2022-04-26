@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    background-color: #f9f9fb !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000137;
+}
+
+.global-container .column-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.global-container .column-right{
+    background-color: #000137;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.global-container .column-right .text {
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.global-container .column-right img {
+    width: 350px;
+    height: 350px;
+
+}
+
+.login-form{
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    background-color: #f9f9fb !important;
+    border-radius: 10px !important;
+    
+
+}
+
+input[type="text"],
+input[type="password"]{
+    background-color: white;
+    color: #000137;
+    border: 2px solid #f1f1f2;
+    width: 300px; 
+    height: 35px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+ 
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background-color: #fefafe;
+    color: #000137;
+
+}
+
+.card-title {
+   font-weight: bolder;
+   font-size: 30px;
+
+}
+
+.btn {
+    background: #000137;
+    color: #f9f9fb;
+    font-size: 14px;
+    border-radius: 10px !important;
+    margin-left: 460px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.row {
+    margin-left: 5px;
+    width:  1000px;
+    font-weight: bolder;
+}
+
+.btn-out {
+color: red;  
+}
+
+
+
+
